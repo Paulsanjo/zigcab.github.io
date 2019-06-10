@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+
+<head>
+  <!-- Required meta tags always come first -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap Template</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="../css/mdb.min.css" rel="stylesheet">
+
+  <style>
+  
+    .btn .fa {
+      margin-left: 3px;
+    }
+
+    h6 {
+      line-height: 1.7;
+    }
+
+    footer.page-footer {
+      margin-top: 0px;
+      padding-top: 0px;
+    }
+
+    body {
+      background-color: #eee;
+    }
+
+    .btn.peach-gradient {
+      color: #fff !important;
+    }
+
+  </style>
+
+</head>
+
+<body ng-app="myApp" ng-controller="myController">
+
+  <!--Main Navigation-->
+  <header>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar blue-gradient">
+      <div class="container">
+        <a class="navbar-brand" href="../index.html">
+          <strong>ZigCab</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+             <li class="nav-item">
+                            <a class="nav-link" href="aboutus.html">About Us & Packages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact-us.html">Contacts Us</a>
+                        </li>
+                         <li class="nav-item" >
+                            <a class="nav-link" href="signuppage.html">Register</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="loginpage.html">Log In</a>
+                        </li>
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+
+    <section>
+      <div class="mdb-map">
+        <div  style=" width: 100%; height: 500px;"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3515.0517245603705!2d91.25921577157366!3d23.709908378029386!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37538ba7f5733b29%3A0xe00a2e849dd9a767!2zMjPCsDQyJzM3LjciTiA5McKwMTUnNDAuNyJF!5e0!3m2!1sen!2sin!4v1558268010897!5m2!1sen!2sin" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+      </div>
+    </section>
+
+  </header>
+  <!--Main Navigation-->
+
+  <!--Main Layout-->
+  <main>
+
+    <div class="container-fluid mb-5">
+
+      <!--Grid row-->
+      <div class="row" style="margin-top: -100px;">
+
+        <!--Grid column-->
+        <div class="col-md-12">
+
+          <div class="card pb-5">
+            <div class="card-body">
+
+              <div class="container">
+
+                <!--Section: Contact v.2-->
+                <section class="section">
+
+                  <!--Section heading-->
+                  <h2 class="font-weight-bold text-center h1 my-5">Contact us</h2>
+                  <!--Section description-->
+                  <p class="text-center grey-text mb-5 mx-auto w-responsive">These page is those who is tired of log in and simply wants to contact us in traditional way of communication ...<br> we gonna contact you with 10 min after receiving your message....</p>
+
+                  <div class="row pt-5">
+
+                    <!--Grid column-->
+                    <div class="col-md-8 col-xl-9">
+                      <form>
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                          <!--Grid column-->
+                          <div class="col-md-6">
+                            <div class="md-form">
+                                <input type="text" name="name" id="contact-name" class="form-control" ng-model="fname" required>
+                                <label for="contact-name" class="">Your name</label>
+                            </div>
+                          </div>
+                          <!--Grid column-->
+
+                          <!--Grid column-->
+                          <div class="col-md-6">
+                            <div class="md-form">
+                                <input type="text" id="contact-email" name="email" ng-model="femail" class="form-control" required>
+                                <label for="contact-email" class="">Your email</label>
+                            </div>
+                          </div>
+                          <!--Grid column-->
+                             <!--Grid column-->
+                          <div class="col-md-6">
+                            <div class="md-form">
+                                <input type="number" min="0" id="contact-number" name="phone" ng-model="fphone" class="form-control" required>
+                                <label for="contact-phone" class="">Your phone no</label>
+                            </div>
+                          </div>
+                          <!--Grid column-->
+
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row">
+                          <div class="col-md-12">
+                            <div class="md-form">
+                              <input type="text" id="contact-Subject" name="subject" ng-model="fsub" class="form-control" required>
+                              <label for="contact-Subject" class="">Subject</label>
+                            </div>
+                          </div>
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                          <!--Grid column-->
+                          <div class="col-md-12">
+
+                            <div class="md-form">
+                              <textarea type="text" id="contact-message" name="msg" ng-model="fmsg" class="md-textarea form-control" rows="3"></textarea>
+                              <label for="contact-message">Your message</label>
+                            </div>
+
+                          </div>
+                        </div>
+                        <!--Grid row-->
+
+                      </form>
+
+                      <div class="text-center text-md-left my-4">
+                        <button class="btn blue-gradient" ng-click="book()" style="color: aliceblue">Send</button>
+                      </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-4 col-xl-3">
+                      <ul class="contact-icons text-center list-unstyled">
+                        <li>
+                          <i class="fa fa-map-marker fa-2x blue-text"></i>
+                          <p>Agartala,Tripura</p>
+                        </li>
+
+                        <li>
+                          <i class="fa fa-phone fa-2x blue-text"></i>
+                          <p>+919876543210</p>
+                        </li>
+
+                        <li>
+                          <i class="fa fa-envelope fa-2x blue-text"></i>
+                          <p>contact@zigcab.com</p>
+                        </li>
+                      </ul>
+                    </div>
+                    <!--Grid column-->
+
+                  </div>
+
+                </section>
+                <!--Section: Contact v.2-->
+
+              </div>
+            </div>
+
+          </div>
+          <!--Grid column-->
+
+        </div>
+        <!--Grid row-->
+
+      </div>
+
+    </div>
+
+  </main>
+  <!--Main Layout-->
+
+  <!--Footer-->
+  <footer class="page-footer pt-4 mt-4   grey lighten-3 text-center text-md-left">
+
+    <!--Copyright-->
+    <div class="footer-copyright text-center py-3 wow fadeIn" data-wow-delay="0.3s" style="background-color:grey">
+      <div class="container-fluid" style="color: aliceblue" >
+       Developed by:
+        <a href="index.html"> zigcab.com </a>
+
+      </div>
+    </div>
+    <!--/Copyright-->
+
+  </footer>
+  <!--/Footer-->
+
+  <!--  SCRIPTS  -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="../js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="../js/mdb.min.js"></script>
+  <script type="text/javascript" src="../js/angular.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+<script>
+    var app = angular.module('myApp',[]);
+    app.controller('myController',function($scope,$http){
+    	alert("before sending function is working as well");
+    	$scope.book = function(){
+    		$http.post("contact.php",{'fname':$scope.fname,'femail':$scope.femail,'fphone':$scope.fphone,'fsub':$scope.fsub,'fmsg':$scope.fmsg}).success(function(data){
+    			alert(data);
+          alert("querry function is working");
+
+    		})
+    	};
+    });
+  </script>
+  
+</body>
+
+</html>
